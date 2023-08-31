@@ -19,4 +19,8 @@
     --Border_Color: #131313;
 }
 ```
+![image](https://github.com/MokatilDev/Bozo-Collective-Website/assets/115933192/ecbb50ce-cd0e-45e9-bb1b-d5be77beca84)
+
+
+
 Devlope by Mokatil Dev 💻 <a href="https://twitter.com/Mokatil_Dev" draggable="false">Twitter</a>
