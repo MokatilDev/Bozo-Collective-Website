@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --Basic_Color_Text: #FFB453;
+    --Normal_Color_Text: #2A2A2A;
+    --Basic_Color_Paragraph: #575757;
+    --Background_Color: #FFFDF6;
+    --Background_Color_Button: #303030;
+    --Shadow_Color_Button: #000000;
+    --Border_Color: #131313;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    background-color: var(--Background_Color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--Normal_Color_Text);
+    width: 3px;
+    transition: all 0.3s ease;
+}
+

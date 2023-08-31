@@ -1,0 +1,249 @@
+:root {
+    --Basic_Color_Text: #FFB453;
+    --Normal_Color_Text: #2A2A2A;
+    --Basic_Color_Paragraph: #575757;
+    --Background_Color: #FFFDF6;
+    --Background_Color_Button: #303030;
+    --Shadow_Color_Button: #000000;
+    --Border_Color: #131313;
+}
+
+@font-face {
+    font-family: "Basic Font";
+    src: url(../Fonts/Basic_Font.ttf);
+}
+
+nav {
+    background-color: var(--Background_Color);
+    border-bottom: 2px solid var(--Border_Color);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 70px;
+}
+
+.Twitter_Navbar.Secondery {
+    display: none;
+}
+
+.List_Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 25px;
+}
+
+.List_Navbar ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.List_Navbar ul li a {
+    color: #000;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.List_Navbar ul li a:hover {
+    color: var(--Basic_Color_Paragraph);
+}
+
+.Title_Navbar {
+    padding-block: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 80px;
+    border-right: 2px solid var(--Border_Color);
+}
+
+.Title_Navbar h1 {
+    font-family: "Basic Font";
+    font-size: 1.05rem;
+    color: #000;
+}
+
+.Twitter_Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Twitter_Navbar {
+    border-left: 2px solid var(--Border_Color);
+    padding-block: 16px;
+    padding-left: 70px;
+    padding-right: 10px;
+}
+
+.Twitter_Navbar a {
+    background-color: var(--Background_Color_Button);
+    font-weight: 500;
+    font-size: 1.16rem;
+    padding: 9px 51px;
+    box-shadow: -5px 5px var(--Basic_Color_Text);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.Twitter_Navbar a:hover {
+    box-shadow: 0 0 0 var(--Basic_Color_Text);
+    transform: translate(-5px, 5px);
+}
+
+
+.Twitter_Navbar a i {
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    nav {
+        padding-inline: 30px;
+    }
+
+    .Twitter_Navbar {
+        padding-left: 40px;
+    }
+
+    .Title_Navbar {
+        padding-block: 18px;
+        padding-right: 50px;
+    }
+
+    .Title_Navbar h1 {
+        font-size: 0.95rem;
+    }
+
+    .List_Navbar ul li a {
+        font-size: 0.90rem;
+    }
+
+    .List_Navbar ul {
+        gap: 25px;
+    }
+
+    .List_Navbar {
+        padding-block: 0px;
+
+    }
+
+    .Twitter_Navbar a {
+        padding: 8px 40px;
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .List_Navbar ul {
+        flex-direction: column;
+        gap: 2px;
+        max-height: 0;
+        transition: all 0.3s;
+    }
+
+    .List_Navbar ul.active{
+        max-height: 170px;
+    }
+
+    nav.active{
+        border-bottom: 1px solid var(--Border_Color);
+        transition: all 0.3s ease;
+
+    }
+
+    .List_Navbar ul li a {
+        font-size: 1rem;
+    }
+
+    nav{
+        border: 0;
+        flex-direction: column;
+        padding-inline: 10px;
+    }
+
+    .Twitter_Navbar {
+        border: 0;
+    }
+
+    .Title_Navbar {
+        border: 0;
+        padding-inline: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .List_Navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        z-index: 999;
+        background-color: var(--Background_Color);
+        margin-top: 70px;
+        right: 0;
+        border: 0;
+    }
+
+    .Twitter_Navbar.Frist {
+        display: none;
+    }
+
+    .Twitter_Navbar.Secondery {
+        display: block;
+    }
+
+    .Twitter_Navbar {
+        padding-left: 10px;
+        padding-right: 0;
+    }
+
+    .Twitter_Navbar a {
+        font-size: 1rem;
+        padding: 10px 50px;
+    }
+
+    .nav_menu span {
+        width: 30px;
+        height: 4px;
+        display: block;
+        position: relative;
+        margin: 6px;
+        background-color: #000;
+    }
+
+    .List_Navbar{
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.3s ease;
+    }
+    .List_Navbar.active{
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--Border_Color);
+        max-height: 300px;
+    }
+
+    .line1,
+    .line2,
+    .line3 {
+        transition: all 0.3s;
+    }
+
+    .line1.active {
+        transform: rotate(45deg) translateY(8px);
+        top: 3px;
+    }
+
+    .line2.active {
+        opacity: 0;
+    }
+
+    .line3.active {
+        transform: rotate(-45deg) translateY(-16px);
+        left: 5px;
+    }
+}

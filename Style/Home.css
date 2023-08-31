@@ -1,0 +1,268 @@
+:root {
+    --Basic_Color_Text: #ffa839;
+    --Normal_Color_Text: #2A2A2A;
+    --Basic_Color_Paragraph: #575757;
+    --Background_Color: #FFFDF6;
+    --Background_Color_Button: #000000;
+    --Shadow_Color_Button: #000000;
+    --Border_Color: #131313;
+}
+
+@font-face {
+    font-family: "Basic Font";
+    src: url(../Fonts/Basic_Font.ttf);
+}
+
+.Section_Home{
+    height: 100vh;
+    background-image: url(../Images/Home/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+
+.Secondary_image {
+    width: 9rem;
+    position: absolute;
+    z-index: 0;
+    filter: drop-shadow(0px 6px 0px var(--Basic_Color_Text));
+}
+
+.Home {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    gap: 20px;
+    padding: 0px 80px;
+}
+
+.Home aside {
+    max-width: 520px;
+    display: flex;
+    height: 100vh;
+    align-items: flex-end;
+}
+
+.Home aside img {
+    filter: drop-shadow(10px 2px 0px var(--Basic_Color_Paragraph));
+    width: 100%;
+}
+
+.Home article h2,
+.Home article h2 span {
+    font-family: "Basic Font";
+    background-color: #000;
+    max-width: 35em;
+    color: var(--Background_Color);
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.Home article h2 span {
+    color: var(--Basic_Color_Text);
+}
+
+.Home article h1 {
+    margin-top: 32px;
+    font-size: 3.5rem;
+    font-family: "Basic Font";
+    color: #000;
+    white-space: nowrap;
+    text-shadow: 4px 3px #ffa839;
+}
+
+.Home article p {
+    color: var(--Basic_Color_Paragraph);
+    font-size: 1.1rem;
+    max-width: 50rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.Home article div.Buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.Home article div.Buttons a {
+    background-color: var(--Background_Color_Button);
+    font-weight: 500;
+    font-size: 1.16rem;
+    padding: 9px 48px;
+    color: #fff;
+    transition: all 0.3s ease;
+
+}
+
+.Home article div.Buttons a:hover {
+    box-shadow: -5px 5px #ffa839;
+    transform: translate(10px, -5px);
+}
+
+
+.Home article div.Buttons a i {
+    font-size: 1.1rem;
+}
+
+.Home article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 1400px) {
+    .Home article h1 {
+        font-size: 3rem;
+    }
+
+    .Home aside {
+        width: 500px;
+    }
+
+    .Home article h2,
+    .Home article h2 span {
+        max-width: 35em;
+        font-size: 0.8rem;
+    }
+
+    .Home article p {
+        font-size: 1rem;
+        max-width: 40rem;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .Home {
+        padding: 0px 30px;
+    }
+
+    nav {
+        padding: 0px 30px;
+    }
+
+    .Home aside {
+        max-width: 450px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .Home article h1 {
+        font-size: 2.5rem;
+        margin-top: 10px;
+    }
+
+    .Home article h2,
+    .Home article h2 span {
+        font-size: 0.7rem;
+        padding: 6px 0;
+    }
+
+    .Home article p {
+        font-size: 0.85rem;
+        max-width: 33rem;
+    }
+
+    .Home article div.Buttons a {
+        padding: 6px 33px;
+        font-size: 0.9rem;
+    }
+
+    .Home article div.Buttons a i {
+        font-size: 1rem;
+    }
+
+    .Home aside {
+        max-width: 400px;
+    }
+
+    .Home article div.Buttons {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .Home {
+        flex-direction: column;
+        height: fit-content;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        border: 0;
+    }
+
+    .Home article h2,
+    .Home article h2 span {
+        font-size: 0.7rem;
+    }
+
+    .Section_Home {
+        height: 100vh;
+        display: flex;
+    }
+
+    .Home aside {
+        height: fit-content;
+    }
+
+    .Home aside {
+        max-width: 300px;
+        display: none;
+    }
+
+    .Home article h2,
+    .Home article h2 span {
+        font-size: 0.6rem;
+    }
+
+    .Home article {
+        margin-top: 20px;
+    }
+
+    .Home article h1 {
+        font-size: 2.3rem;
+    }
+
+    .Home article h1 {
+        font-size: 2.5rem;
+    }
+
+    .Home aside {
+        width: 20px;
+    }
+
+    .Home article h1 {
+        white-space: normal;
+    }
+
+    .Home article p {
+        font-size: 0.9rem;
+    }
+
+    .Home article h2,
+    .Home article h2 span {
+        font-size: 0.7rem;
+    }
+
+    .Home article div.Buttons {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .Home article div.Buttons a {
+        font-size: 1rem;
+        padding: 8px 40px;
+    }
+
+    .Home article div.Buttons a i {
+        font-size: 1.1rem;
+    }
+
+}

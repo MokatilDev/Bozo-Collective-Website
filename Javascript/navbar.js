@@ -1,0 +1,16 @@
+const list_navbar = document.querySelector(".List_Navbar")
+const nav_menu = document.querySelector(".nav_menu")
+const ul = document.querySelector(".List_Navbar ul")
+const line1 = document.querySelector(".line1")
+const line2 = document.querySelector(".line2")
+const line3 = document.querySelector(".line3")
+const nav = document.querySelector("nav")
+
+nav_menu.addEventListener("click" ,()=> {
+    list_navbar.classList.toggle("active")
+    ul.classList.toggle("active")
+    line1.classList.toggle("active")
+    line2.classList.toggle("active")
+    line3.classList.toggle("active")
+    nav.classList.toggle("active")
+})

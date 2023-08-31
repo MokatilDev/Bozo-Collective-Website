@@ -1,0 +1,32 @@
+.Section_ArtWork{
+    display: none;
+}
+
+.Section_Home.active{
+    display: none;
+}
+
+.load{
+    display: none;
+}
+
+.Section_ArtWork.active{
+    display: block;
+}
+
+.Section_DaoHub.active{
+    display: block;
+}
+
+
+.Section_Readmap.active{
+    display: block;
+}
+
+.Mint_Info {
+    display: none;
+}
+
+.Mint_Info.active{
+    display: block;
+}
