@@ -19,4 +19,4 @@
     --Border_Color: #131313;
 }
 ```
-Devlope by Mokatil Dev 💻 <a href="https://twitter.com/Mokatil_Dev">Twitter</a>
+Devlope by Mokatil Dev 💻 <a href="https://twitter.com/Mokatil_Dev" draggable="false">Twitter</a>
