@@ -8,14 +8,14 @@
 > **Twitter :** <https://twitter.com/BozoCollective>
 
 # Home page
-![image](https://github.com/MokatilDev/Bozo-Collective-Website/assets/115933192/ecbb50ce-cd0e-45e9-bb1b-d5be77beca84)
-# ArtWork page
-[Bozo-Collective-.webm](https://github.com/MokatilDev/Bozo-Collective-Website/assets/115933192/46b2d7c0-a841-4be4-9ac5-6b2cc19e1ea9)
+![image](https://github.com/MokatilDev/Bozo-Collective-Website/assets/115933192/9b2f5649-a131-45ee-919a-651590020ed2)
+# ArtWork
+[Bozo.webm](https://github.com/MokatilDev/Bozo-Collective-Website/assets/115933192/7c6ba56c-25f2-4c27-b9c8-0c6155b02e1f)
 # Dao Hub page
-![image](https://github.com/MokatilDev/Bozo-Collective-Website/assets/115933192/d2fba49f-06de-4945-beb1-e8edef3ec880)
+![image](https://github.com/MokatilDev/Bozo-Collective-Website/assets/115933192/be820fc7-2774-4a9b-8566-9cc25404fddd)
 # Readmap page
-![image](https://github.com/MokatilDev/Bozo-Collective-Website/assets/115933192/60631554-44d7-46e6-8d22-78cd31b89fab)
+![image](https://github.com/MokatilDev/Bozo-Collective-Website/assets/115933192/ad79ba75-925f-4b60-8262-e991b18a3d52)
 # FQA page
-![image](https://github.com/MokatilDev/Bozo-Collective-Website/assets/115933192/c0bcd6d3-4b6c-45b9-a738-a328f61dc8d5)
+![image](https://github.com/MokatilDev/Bozo-Collective-Website/assets/115933192/307d9c90-f949-42ef-8309-f5fd02d564de)
 
 Devlope by Mokatil Dev 💻 <a href="https://twitter.com/Mokatil_Dev" draggable="false">Twitter</a>
